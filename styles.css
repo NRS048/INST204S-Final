@@ -1,0 +1,21 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    text-align: center;
+    font-size: larger;
+    background-color: darkcyan;
+}
+
+#denytext {
+    text-align: center;
+    color: crimson;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
