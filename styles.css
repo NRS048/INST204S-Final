@@ -30,16 +30,21 @@ header {
   font-weight: bolder;
 }
 
-#switchText {
-  margin-left: 75px;
+#switchTextProf {
   margin-right: 75px;
+  width: 100px;
+  text-align: center;
+}
+
+#switchTextStud {
+  margin-left: 75px;
   width: 100px;
   text-align: center;
 }
 
 div {
   display: flex;
-  justify-content: center;
+  justify-content: center;;
 }
 
 ul {
@@ -155,6 +160,7 @@ input:checked + .slider:before {
 
 .slider.round {
   border-radius: 34px;
+  width: 60px;
 }
 
 .slider.round:before {
