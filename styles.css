@@ -91,6 +91,14 @@ footer {
   border-radius: 15px;
 }
 
+#denyText {
+  text-align: center;
+}
+
+#appealText {
+  text-align: center;
+}
+
 /* switch style */
 .switch {
   position: relative;

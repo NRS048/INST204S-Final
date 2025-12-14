@@ -7,7 +7,7 @@ function submitField() {
   dt.innerHTML = "Sorry, the use of one of the vowels a, e, i, o, or u, have also been seen in 21,065 scholarly artiles. Try again.";
 
   //Make appeal field and buttons appear
-  at.innerHTML = "Would you like to appeal this decision?"
+  at.innerHTML = "Maybe you would like to appeal this decision?<br><br>Now, lets look at the benefits and drawbacks of these systems."
   ab.style.display = "block"
   db.style.display = "block"
 }
