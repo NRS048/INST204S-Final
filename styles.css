@@ -1,33 +1,49 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 header {
-    text-align: center;
-    font-size: larger;
-    background-color: darkcyan;
+  text-align: center;
+  font-size: larger;
+  background-color: darkcyan;
 }
 
-#denytext {
-    text-align: center;
-    color: crimson;
-    font-size: larger;
-    font-weight: bolder;
+#denyText {
+  text-align: center;
+  color: crimson;
+  font-size: larger;
+  font-weight: bolder;
 }
 
-#switchtext {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 20%;
-    text-align: center;
+#switchText {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 20%;
+  text-align: center;
 }
 
 div {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: "-  ";
 }
 
 
+li {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#endText {
+  margin-bottom: 40px;
+  font-size: large;
+  text-align: center;
+}
 
 /* switch style */
 .switch {
@@ -68,11 +84,11 @@ div {
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: darkcyan;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px darkcyan;
 }
 
 input:checked + .slider:before {
